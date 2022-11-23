@@ -1,0 +1,118 @@
+
+body {
+	padding: 0;
+	margin: 0;
+	background: #000000
+}
+
+.header_buttons button {
+	border: none;
+	background-color: dimgray;
+	color: whitesmoke;
+	width: 200px;
+	font-family: 'Pixeloid_Sans_Bold';
+}
+
+.header_background {
+	background-color: dimgrey;
+	position: fixed;
+	text-align: top;
+	width: 100%;
+	height: 60px;
+	margin: auto;
+	top: -20px;
+}
+
+p {
+	color: white;
+	line-height: 1px;
+	font-family: 'Pixeloid_Sans';
+}
+
+h1 {
+	color: white;
+	font-family: 'Pixeloid_Sans_Bold'
+}
+
+h2 {
+	color: white;
+	font-family: 'Pixeloid_Sans_Bold'
+}
+
+.golden_text {
+	color: goldenrod;
+}
+
+h3 {
+	color: white;
+	font-family: 'Pixeloid_Sans'
+}
+
+h4 {
+	color: white;
+	font-family: 'Pixeloid_Sans'
+}
+
+.centered_text {
+	height: 200px;
+    width: 400px;
+    background: black;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+.Discord_Button {
+	margin-top: 30px;
+	margin-left: 20px;
+	border: hidden;
+	color: white;
+	background-color: #4e5d94;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 17px;
+	font-family: 'Pixeloid_Sans_Bold';
+	border-radius: 7px;
+}
+
+.Discord_Logo {
+	max-width: 25px;
+	max-height: inherit;
+	vertical-align: bottom;
+}
+
+.white_text {
+	color: white;
+	text-decoration: none;
+}
+
+.Home_Title {
+	background: url("other/downscaled.png");
+	margin-top: 21px;
+	max-height: 190px;
+	background-size: 225px;
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+.Black_Text {
+	color: white;
+}
+
+@font-face {
+	font-family: 'Pixeloid_Mono';
+	src: url("fonts/PixeloidMono-1G8ae.ttf")
+}
+@font-face {
+	font-family: 'Pixeloid_Sans';
+	src: url("fonts/PixeloidSans-nR3g1.ttf")
+}
+@font-face {
+	font-family: 'Pixeloid_Sans_Bold';
+	src: url("fonts/PixeloidSansBold-RpeJo.ttf")
+}
