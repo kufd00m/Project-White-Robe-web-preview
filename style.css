@@ -5,14 +5,19 @@ body {
 	background: #000000
 }
 
-.header_buttons button {
-	border: none;
+.header_buttons nav {
 	background-color: dimgray;
-	color: whitesmoke;
-	width: 200px;
+	color: white;
 	font-family: 'Pixeloid_Sans_Bold';
+	margin-top: 30px;
+	text-align: center;
+	word-spacing: 50px;
+	text-decoration: none;
 }
-
+a {
+	color: white;
+	align-items: center;
+}
 .header_background {
 	background-color: dimgrey;
 	position: fixed;
@@ -67,7 +72,7 @@ h4 {
 
 .Discord_Button {
 	margin-top: 30px;
-	margin-left: 20px;
+	margin-left: 30px;
 	border: hidden;
 	color: white;
 	background-color: #4e5d94;
@@ -93,15 +98,26 @@ h4 {
 
 .Home_Title {
 	background: url("other/downscaled.png");
-	margin-top: 21px;
-	max-height: 190px;
+	margin-top: 40px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	background-size: 225px;
 	background-repeat: repeat-x;
 	background-position: top;
+	text-align: center;
 }
 
 .Black_Text {
 	color: white;
+}
+
+a {
+	text-decoration-line: none;
+}
+
+.home_p {
+	padding-left: 30px;
+	padding-top: 20px;
 }
 
 @font-face {
