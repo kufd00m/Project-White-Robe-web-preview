@@ -1,7 +1,6 @@
 
 body {
-	padding: 0;
-	margin: 0;
+	margin: 0px;
 	background: #000000
 }
 
@@ -17,6 +16,7 @@ body {
 a {
 	color: white;
 	align-items: center;
+	text-decoration: none;
 }
 .header_background {
 	background-color: dimgrey;
@@ -74,7 +74,6 @@ h4 {
 	border: hidden;
 	color: white;
 	background-color: #4e5d94;
-	margin: auto;
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-top: 10px;
@@ -82,7 +81,7 @@ h4 {
 	font-size: 17px;
 	font-family: 'Pixeloid_Sans_Bold';
 	border-radius: 7px;
-	margin-top: 15px;
+	margin-top: 25px;
 	position: absolute;
 	left: 50%;
 	margin-left: -121px;
@@ -110,12 +109,8 @@ h4 {
 	text-align: center;
 }
 
-.Black_Text {
+.White_Text {
 	color: white;
-}
-
-a {
-	text-decoration-line: none;
 }
 
 .home_p {
@@ -124,6 +119,7 @@ a {
 	font-size: 20px;
 	text-align: center;
 }
+
 .contributors {
 	text-align: center;
 	padding-top: 70px;
